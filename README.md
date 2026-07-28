@@ -1,16 +1,107 @@
-# React + Vite
+# CONNECTCON
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CONNECTCON es un prototipo web desarrollado con React y Vite que representa una plataforma de integración entre sistemas empresariales.
 
-Currently, two official plugins are available:
+Su objetivo es centralizar la información proveniente de distintas aplicaciones en una única interfaz, facilitando el seguimiento de órdenes de trabajo, actividades, reportes e indicadores para apoyar la toma de decisiones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **Nota:** Este repositorio corresponde únicamente a un prototipo visual (Frontend) desarrollado con fines académicos. No incluye backend, base de datos ni integración con servicios reales.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
+- Tabler Icons
+- Docker
+- Docker Compose
+- Nginx
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clona el repositorio:
+
+```bash
+git clone https://github.com/betra0/connectCon.git
+```
+
+Ingresa al proyecto:
+
+```bash
+cd connectCon
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en:
+
+```
+http://localhost:5173
+```
+
+## Ejecutar con Docker
+
+```bash
+docker compose up -d --build
+```
+
+La aplicación quedará disponible en:
+
+```
+http://localhost:18473
+```
+
+## Comandos
+
+```bash
+npm run dev
+```
+
+Inicia el servidor de desarrollo.
+
+```bash
+npm run build
+```
+
+Genera la versión de producción.
+
+```bash
+npm run preview
+```
+
+Visualiza la versión compilada.
+
+```bash
+npm run lint
+```
+
+Ejecuta ESLint.
+
+## Funcionalidades
+
+- Dashboard principal
+- Gestión visual de órdenes de trabajo
+- Seguimiento de actividades
+- Centro de integración
+- Reportes e indicadores
+- Panel de alertas
+- Copilot integrado
+- Diseño responsive
+
+## Estado del proyecto
+
+CONNECTCON es un prototipo desarrollado para un proyecto universitario. La aplicación implementa únicamente la interfaz de usuario para representar el funcionamiento de la plataforma, por lo que la información mostrada es estática y no existe conexión con sistemas externos o APIs.
+
+## Autor
+
+Proyecto desarrollado por el equipo **CONNECTCON** con fines académicos.
