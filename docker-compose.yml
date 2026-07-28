@@ -1,0 +1,17 @@
+services:
+  connectcon:
+    container_name: connectcon-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "18473:80"
+    restart: unless-stopped
+    environment:
+      TZ: America/Santiago
+    networks:
+      - connectcon-network
+
+networks:
+  connectcon-network:
+    driver: bridge
