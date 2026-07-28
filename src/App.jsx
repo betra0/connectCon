@@ -18,7 +18,7 @@ import {
   IconUser,
   IconX,
 } from '@tabler/icons-react'
-import connectconLogo from './assets/logoConnectCon.png'
+import connectconLogo from './assets/logoConnectConV2.png'
 import copilotLogo from './assets/image.png'
 import './index.css'
 import GenerateReportPage from './pages/GenerateReportPage'
