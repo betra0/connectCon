@@ -1,3 +1,4 @@
+![CONNECTCON Logo](./src/assets/logoConnectConV2.png)
 # CONNECTCON
 
 CONNECTCON es un prototipo web desarrollado con React y Vite que representa una plataforma de integración entre sistemas empresariales.
